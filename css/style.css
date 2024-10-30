@@ -1,0 +1,122 @@
+/*
+File:			custom.css
+Description:	styles for Lazyzoun
+
+*/
+
+div.amazonproduct {
+    background: url("/wp-content/plugins/lazyzoun/img/border_sidebar.png") no-repeat scroll left bottom transparent;
+    border: 1px solid #F6F6F6;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#lazyzoun_aussen a,p{
+text-decoration: none;
+font-family: Arial,Sans-serif;
+}
+
+span.amazonproduct{
+    display: block;
+text-align: center;
+
+}
+
+h3.amazonproduct{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+p.amazonproduct-meta{
+    color: #999999;
+    font-size: 12px;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+img.amazonproduct{
+   background: none repeat scroll 0 0 #D8D8D8;
+ /*  background: url("/wp-content/plugins/lazyzoun/img/Shopping_Cart.png") no-repeat scroll 50% 50% #D8D8D8; */
+   padding: 3px;
+}
+
+img.logo-title{
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    padding: 1px;    padding: 1px;
+    
+}
+
+img.logo{
+    background: none repeat scroll 0 0 #999999;
+    padding: 1px;
+}
+
+p.subimgtext{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+span.lzbuybutton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+}
+a.lzbuybutton{
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+a.lzbuybutton span.lzlinks {
+    background: url("/wp-content/plugins/lazyzoun/img/bg-lzbuybutton-links.gif") no-repeat scroll 0 0 transparent;
+    display: inline;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 5px;
+}
+
+a.lzbuybutton span.lzrechts {
+    background: url("/wp-content/plugins/lazyzoun/img/bg-lzbuybutton-rechts.gif") no-repeat scroll 0 0 transparent;
+    display: inline;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 5px;
+}
+
+a.lzbuybutton span.lzmitte {
+    background: url("/wp-content/plugins/lazyzoun/img/bg-lzbuybutton.gif") repeat-x scroll 0 0 transparent;
+    display: inline;
+	float:left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px 0 4px;
+    width: 140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+span.logo{
+    color: #FFFFFF;
+    display: block;
+    font-size: 23px;
+    height: 40px;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
